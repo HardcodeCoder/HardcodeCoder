@@ -41,3 +41,41 @@
     </a>
 </div>
 <br />
+
+```kotlin
+open class IAM(
+    val name: String = "Ashuthosh Patoa",
+    val aka: String = "HardcodeCoder",
+    val about: String = "Kotlin Lover, Android Nerd, Writes getter & setter for $$",
+    val languages: Array<String> = arrayOf(
+        "Kotlin",
+        "Java",
+        "TypeScript",
+        "C#",
+        "Shell",
+    ),
+    val editors: Array<String> = arrayOf(
+        "Zed",
+        "Kate",
+        "Nano",
+    ),
+    val activities: Array<String> = arrayOf(
+        "Cycling",
+        "Badminton",
+        "Debloating",
+        "CLI Automation",
+    ),
+    val status: String = "Noob!",
+) {
+    operator fun invoke(action: IAM.() -> Unit) = this.apply(action)
+
+    override fun toString() =
+        """
+        | Intro:  $name ($aka): $about
+        | Langs:  ${languages.joinToString(", ")}
+        | Editor: ${editors.joinToString(", ")}
+        | Hobby:  ${activities.joinToString(", ")}
+        | Status: $status
+        """.trimMargin()
+}
+```
