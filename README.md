@@ -30,5 +30,14 @@
             alt="Follow on X"
         />
     </a>
+    <br />
+    <br />
+    <!-- Contributions Streak Card -->
+    <a href="https://github.com/HardcodeCoder/Github-Contribution-Streak">
+        <img
+            src="https://github-contribution-streak.vercel.app?user=HardcodeCoder&mode=weekly&border_radius=8"
+            alt="Github Contribution Streak"
+        />
+    </a>
 </div>
 <br />
