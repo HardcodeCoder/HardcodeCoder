@@ -79,3 +79,19 @@ open class IAM(
         """.trimMargin()
 }
 ```
+
+<div align="center">
+    <h3>:fire: Profile Stats :fire:</h3>
+    <a href="https://github.com/HardcodeCoder/Github-Profile-Metrics">
+        <img
+            src="https://github-profile-metrics.vercel.app/api?username=HardcodeCoder&card_width=400&border_radius=8&custom_title=Profile+Metrics&show_icons=true&include_all_commits=true&show=prs_merged&hide=contribs"
+            alt="Github Profile Metrics Card"
+        />
+    </a>
+    <a href="https://github.com/HardcodeCoder/Github-Profile-Metrics">
+        <img
+            src="https://github-profile-metrics.vercel.app/api/top-langs/?username=HardcodeCoder&card_width=360&layout=compact&border_radius=8&custom_title=Top+Languages&langs_count=8&hide=html,css,php,qml,jupyter+notebook,c%2b%2b"
+            alt="Github Profile Top Languages"
+        />
+    </a>
+</div>
