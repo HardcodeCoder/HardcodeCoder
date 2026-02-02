@@ -94,4 +94,11 @@ open class IAM(
             alt="Github Profile Top Languages"
         />
     </a>
+    <a href="https://github.com/HardcodeCoder/Github-Activity-Chart">
+        <img
+            src="https://github-activity-chart.vercel.app/graph/?username=HardcodeCoder&radius=16&custom_title=Contributions+Chart&days=21"
+            width="800"
+            alt="Github Activity Chart"
+        />
+    </a>
 </div>
